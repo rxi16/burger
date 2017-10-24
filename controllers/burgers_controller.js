@@ -14,6 +14,7 @@ router.get("/", function(req, res) {
     	var hbsObject = {
     		// express-handlebars required in server.js
     		// what data is being passed? data from all columns in most updated table?
+    		// data was used in test.js as a property key (paired with property value newBurger)
       		burgers: data
     	};
     	res.render("index", hbsObject);

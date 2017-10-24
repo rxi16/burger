@@ -1,0 +1,1 @@
+INSERT INTO burgers (burger_name, devoured) VALUES ('blt', true), ('black bean', false), ('quinoa', true);

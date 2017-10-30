@@ -21,6 +21,7 @@ function objToSql(ob) {
 	var arr = [];
 	// loop through the keys and push the key/value as a string int arr (string integer array?)
 	// does key refer to primary key i.e.id? or does it refer to column name?
+  // remember, ob was passed as a parameter or argument
 	for (var key in ob) {
 		// goal: to create sql statement like INSERT INTO ("?","?","?") VALUES (?,?,?);
 		// remember, this code is for passing three arguments. How many arguments do I need to pass?
